@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title> registration form</title>
+    <link rel="stylesheet" href="css/fontawesome-free-6.4.2-web/css/all.css" />
+    <link rel="stylesheet" href="css/styles.css"/>
+</head>
+    <body>
+    <div class="container">
+        <i class="fa fa-space-shuttle" aria-hidden="true"></i>
+        <header>Sign Up To The Space</header>
+        <!-- form -->
+        <form class="form">
+            <div class="input-box">
+                <label>Full Name</label>
+                <input type="text" placeholder="Enter Full Name" required autofocus/>
+            </div>
+            <div class="input-box">
+                <label>Email </label>
+                <input type="email" placeholder="Enter Your Email" required/>
+            </div>
+            <div class="input-box">
+                <label>Password</label>
+                <input type="password" placeholder="Enter Your Password" required minlength="8" maxlength="15"/>
+            </div>
+        <div class="input-box">
+            <label>Phone Number</label>
+            <input type="number" placeholder="Enter Phone Number" />
+        </div>
+
+    <div class="input-box">
+        <label>Birth Date</label>
+        <input type="date" placeholder="Enter Birth Date" />
+    </div>
+    <div class="gender-box">
+        <h3>Gender</h3>
+        <div class="gender">
+            <input type="radio" id="check-male" name="gender"/>
+            <labele >Male</labele>
+        </div>
+        <div class="gender">
+            <input type="radio" id="check-female" name="gender" checked/>
+            <labele >female</labele>
+        </div>
+
+    <div class="input-box adress">
+        <label>Adress</label>
+        <input type="text" placeholder="Enter Adress" required/>
+         <div class="select-box">
+    <select>
+        <option hidden>country</option>
+        <option>Saudi Arabia</option>
+        <option>Japan</option>
+        <option>UAE</option>
+    </select>
+    </div>
+    </div>
+    <div class="button">
+<input type="reset" value="reset">
+<input type="submit" value="submit">
+    </div>
+</form>
+    </div>
+
+</body>
+</html>

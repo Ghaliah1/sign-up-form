@@ -1,0 +1,121 @@
+/* Import Google font - Poppins */
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap");
+
+/* //start */
+* {
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+body {
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  padding: 20px;
+  background-image: url(../imgs/galaxy.jpg);
+  background-size: cover;
+  background-position: center;
+}
+.container {
+  max-width: 700px;
+  width: 100%;
+  background: transparent;
+  border: 2px solid rgba(255, 255 , 255, .5);
+  border-radius: 20px;
+  padding: 25px;
+  backdrop-filter: blur(4px);
+}
+.container i {
+  color: #fff;
+  font-weight: 700;
+  font-size: 45px;
+}
+.container header {
+  font-size: 31px;
+  color: #fff;
+  font-weight: 700;
+  text-align: center;
+  margin-top: -46px;
+}
+.container .form {
+  margin-top: 30px;
+}
+.form .input-box {
+  width: 100%;
+  margin-top: 20px;
+}
+.input-box label {
+  color: #fff;
+}
+.form .input-box input  {
+  height: 50px;
+  width: 100%;
+  font-size: 17px;
+  color: #707070;
+  margin-top: 8px;
+  border: 1px solid #ddd;
+  border-radius: 6px;
+  padding: 0 15px;
+}
+.form .gender-box {
+  margin-top: 20px;
+}
+.gender-box h3 {
+  color: #fff;
+  font-size: 17px;
+  font-weight: 400;
+  margin-bottom: 8px;
+}
+
+.form .gender input {
+  cursor: pointer;
+}
+
+.gender {
+  color: #fff;
+}
+
+.form .select-box{
+  height: 50px;
+  width: 100%;
+  font-size: 17px;
+  color: #707070;
+  margin-top: 14px;
+  border: 1px solid #ddd;
+  border-radius: 6px;
+  padding: 0 1px;
+  }
+.select-box select {
+  height: 100%;
+  width: 100%;
+  border: none;
+  color: #707070;
+  font-size: 15px;
+}
+ .button input {
+  height: 55px;
+  width: 100%;
+  color: #fff;
+  font-size: 15px;
+  font-weight: 400;
+  margin-top: 30px;
+  border: none;
+  cursor: pointer;
+  background: rgb(141 132 197);
+  border-radius: 15px;
+}
+.button input:hover {
+  background: rgb(96, 91, 136);
+}
+/*Responsive*/
+
+@media (max-width: 500px) {
+  .container i {
+    display: none;
+  }
+}
+@media (max-width: 500px) {
+  .container header {
+   margin-top: 18px;
+  }
+}
+/* //end */
